@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 public class TutorialMod
 {
     public static final String MOD_ID = "tutorialmod";
-    public static final Logger LOGGER = LogUtils.getLogger();
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     public TutorialMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
